@@ -1,0 +1,22 @@
+.input-container {
+	width: 100%;
+}
+
+input[type="text"] {
+	box-sizing: border-box;
+	border-radius: 20px;
+	width: 200px;
+	height: 30px;
+	font-size: 0.8em;
+	display: flex;
+	justify-content: center;
+	padding: 5px;
+	margin: auto;
+	border: 1px solid black;
+	outline: none;
+}
+
+input[type="text"]:focus {
+	border: 1px solid #08e6ff;
+	box-sizing: border-box;
+}
